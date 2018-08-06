@@ -1,0 +1,137 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+
+@font-face {
+	font-family: "TeXGyreHeros";
+	src: url("fonts/texgyreheros-regular.ttf");
+}
+
+html {
+	background-color: black;
+}
+
+body {
+	font-size: 1.25em;
+	margin: 0 auto;
+	color: #B0B2B8;
+	padding-left: 1em;
+}
+
+header {
+	background-color: #202225;
+	padding: 2em;
+	padding-bottom: 1em;
+	
+}
+
+main {
+	background-color: #202225;	
+	padding-left: 2em;
+}
+
+footer{
+	background-color: #202225;
+	padding: 2em;
+}
+
+
+/* Flexbox */
+header, body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1 {
+	color: rgb(29, 185, 84);
+	font-size: 2.5em;
+
+}
+
+h3 {
+	color: rgb(230, 26, 122);
+	padding-top: 0;
+}
+
+h4 {
+	color: rgb(63, 121, 11);
+}
+
+hr {
+	color: white;
+}
+
+p a {
+	color: rgb(0, 175, 215);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#bullet {
+	list-style-type: disc;
+}
+
+li {
+	padding-bottom: 2em;
+}
+
+
+li a {
+	color: #0ff;
+	text-decoration: none;
+	margin: 1em;
+	margin-left: 3em;
+}
+
+nav ul {
+	background-color: black;
+	
+	height: 100%;
+	width: 20%;
+	
+	top: 7em;
+	left: 0;
+	
+	position: fixed;
+	overflow: auto;
+}
+
+nav li {
+	padding-bottom: 0;
+}
+nav li a {
+	margin-left: 1em;
+	display: block;
+	text-align: center;
+}
+
+li a:hover {
+	color: white;
+}
+
+
+@media screen and (min-width: 76em){
+	body {
+		display: grid;
+		grid-template-columns: 20% 80%;
+		grid-template-rows: auto;
+		grid-template-areas: "top-left top-right"
+		"middle-left middle-right"
+		"bottom-left bottom-right";
+	}
+
+	header {
+		grid-area: top-right;
+	}
+
+	main {
+		grid-area: middle-right;
+	}
+
+	footer {
+		grid-area: bottom-right
+	}
+}
