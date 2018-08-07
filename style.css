@@ -50,7 +50,7 @@ header, body {
 }
 
 h1 {
-	color: rgb(29, 185, 84);
+	color: #1db954;
 	font-size: 2.5em;
 
 }
@@ -68,8 +68,8 @@ hr {
 	color: white;
 }
 
-p a {
-	color: rgb(0, 175, 215);
+a {
+	color: rgb(0, 175, 200);
 }
 
 ul {
@@ -88,7 +88,6 @@ li {
 
 
 li a {
-	color: #0ff;
 	text-decoration: none;
 	margin: 1em;
 	margin-left: 3em;
@@ -112,15 +111,17 @@ nav li {
 }
 
 nav li a {
+	color: #0ff;
 	margin-left: 1em;
 	display: block;
 	text-align: center;
 }
 
-li a:hover {
+nav li a:hover {
 	color: white;
 }
 
+/* Coloured headings for Contact Me */
 #stackoverflow {
 	color: #FF9900;
 }
@@ -137,7 +138,7 @@ li a:hover {
 	color: #7289da;
 }
 
-
+/* Grid Layout */
 @media screen and (min-width: 76em){
 	body {
 		display: grid;
