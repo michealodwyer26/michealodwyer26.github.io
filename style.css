@@ -13,7 +13,6 @@ body {
 	font-size: 1.25em;
 	margin: 0 auto;
 	color: #B0B2B8;
-	padding-left: 1em;
 }
 
 header {
@@ -118,9 +117,9 @@ li a:hover {
 		display: grid;
 		grid-template-columns: 20% 80%;
 		grid-template-rows: auto;
-		grid-template-areas: "top-left top-right"
-		"middle-left middle-right"
-		"bottom-left bottom-right";
+		grid-template-areas: "nav top-right"
+		"nav middle-right"
+		"nav bottom-right";
 	}
 
 	header {
@@ -133,5 +132,8 @@ li a:hover {
 
 	footer {
 		grid-area: bottom-right
+	}
+	nav {
+		grid-area: nav;
 	}
 }
