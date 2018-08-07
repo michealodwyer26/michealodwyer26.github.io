@@ -102,6 +102,7 @@ nav ul {
 nav li {
 	padding-bottom: 0;
 }
+
 nav li a {
 	margin-left: 1em;
 	display: block;
@@ -110,6 +111,22 @@ nav li a {
 
 li a:hover {
 	color: white;
+}
+
+#stackoverflow {
+	color: #FF9900;
+}
+
+#spotify {
+	color: #1DB954;
+}
+
+#github {
+	color: white;
+}
+
+#discord {
+	color: #7289da;
 }
 
 
