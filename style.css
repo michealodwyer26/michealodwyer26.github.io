@@ -22,6 +22,12 @@ header {
 
 article header {
 	padding: 0em;
+	padding-bottom: 2em;
+}
+
+article section header {
+	padding: 0em;
+	margin-left: 1em;
 }
 
 main {
