@@ -122,21 +122,7 @@ nav li a:hover {
 }
 
 /* Coloured headings for Contact Me */
-#stackoverflow {
-	color: #FF9900;
-}
 
-#spotify {
-	color: #1DB954;
-}
-
-#github {
-	color: white;
-}
-
-#discord {
-	color: #7289da;
-}
 
 /* Grid Layout */
 @media screen and (min-width: 76em){
