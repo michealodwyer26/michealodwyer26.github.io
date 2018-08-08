@@ -1,8 +1,10 @@
+/* Load font */
 @font-face {
 	font-family: "TeXGyreHeros";
 	src: url("fonts/texgyreheros-regular.ttf");
 }
 
+/* Basic colours and font size */
 html {
 	background-color: black;
 }
@@ -11,10 +13,11 @@ body {
 	font-size: 1.25em;
 	margin: 0 auto;
 	color: #B0B2B8;
+	background-color: #202225;
 }
 
+/* Padding and margins */
 header {
-	background-color: #202225;
 	padding: 2em;
 }
 
@@ -29,13 +32,11 @@ article section header {
 }
 
 main {
-	background-color: #202225;	
 	padding-left: 2em;
 	padding-right: 2em;
 }
 
 footer{
-	background-color: #202225;
 	padding: 2em;
 }
 
@@ -47,6 +48,8 @@ header, body {
     flex-wrap: wrap;
 }
 
+/* Colour styling */
+
 h1 {
 	color: #1db954;
 	font-size: 2.5em;
@@ -55,7 +58,6 @@ h1 {
 
 h3 {
 	color: rgb(230, 26, 122);
-	padding-top: 0;
 }
 
 h4 {
@@ -70,6 +72,7 @@ a {
 	color: rgb(0, 175, 200);
 }
 
+/* List styling */
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -84,14 +87,16 @@ li {
 	padding-bottom: 2em;
 }
 
-
+/* Link styling */
 li a {
 	text-decoration: none;
 	margin: 1em;
 	margin-left: 3em;
 }
 
-nav ul {
+
+/* Nav */
+nav {
 	background-color: black;
 }
 
@@ -108,6 +113,14 @@ nav li a {
 
 nav li a:hover {
 	color: white;
+}
+
+footer {
+	margin: 2em;
+	margin-bottom: 0em;
+	font-size:0.75em;
+	border-top-style: solid;
+	border-width: 0.1em;
 }
 
 /* Grid Layout for Mobile*/
@@ -174,5 +187,3 @@ nav li a:hover {
 		overflow: auto;
 	}
 }
-
-
