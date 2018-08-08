@@ -7,13 +7,16 @@
 /* Basic colours and font size */
 html {
 	background-color: black;
+	max-width: 100%;
 }
 
 body {
 	font-size: 1.25em;
-	margin: 0 auto;
+	margin: 0em auto;
 	color: #B0B2B8;
 	background-color: #202225;
+	box-sizing: border-box;
+	max-width: 99%;
 }
 
 /* Padding and margins */
@@ -64,14 +67,6 @@ h4 {
 	color: rgb(63, 121, 11);
 }
 
-hr {
-	color: white;
-}
-
-a {
-	color: rgb(0, 175, 200);
-}
-
 /* List styling */
 ul {
 	list-style-type: none;
@@ -88,6 +83,10 @@ li {
 }
 
 /* Link styling */
+a {
+	color: #0F52BA;
+}
+
 li a {
 	text-decoration: none;
 	margin: 1em;
@@ -97,6 +96,12 @@ li a {
 
 /* Nav */
 nav {
+	width: 100%;
+	background-color: black;
+
+}
+
+nav ul {
 	background-color: black;
 }
 
@@ -123,33 +128,14 @@ footer {
 	border-width: 0.1em;
 }
 
-/* Grid Layout for Mobile*/
-@media screen and (min-width: 18em) {
-	body {
-		display: grid;
-		grid-template-columns: auto;
-		grid-template-rows: 100%;
-		grid template-areas: "header"
-		"nav"
-		"main"
-		"footer";
-	}
-	
-	header {
-		grid-area: header;
-	}
-	
-	nav {
-		grid-area: nav;	
-	}
+@media screen and (min-width: 18em){
 
-	main {
-		grid-area: main;
-	}
+header {
+	max-width: 99%;
+	
+	font-size: 0.7em;
+}
 
-	footer {
-		grid-area: footer;
-	}
 
 }
 
@@ -162,6 +148,7 @@ footer {
 		grid-template-areas: "nav top-right"
 		"nav middle-right"
 		"nav bottom-right";
+	
 	}
 
 	header {
@@ -177,13 +164,21 @@ footer {
 	}
 	nav {
 		grid-area: nav;
+		background-color: black;
 	}
 	nav ul {
-		top: 7em;
+		padding-top: 7em;
+		top: 0em;
 		left: 0;
 		height: 100%;
 		width: 20%;
 		position: fixed;
 		overflow: auto;
 	}
+	
+	header {
+		font-size: 0.9em;
+	}
 }
+
+
