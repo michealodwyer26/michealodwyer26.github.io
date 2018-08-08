@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
-
 @font-face {
 	font-family: "TeXGyreHeros";
 	src: url("fonts/texgyreheros-regular.ttf");
@@ -95,15 +93,6 @@ li a {
 
 nav ul {
 	background-color: black;
-	
-	height: 100%;
-	width: 20%;
-	
-	top: 7em;
-	left: 0;
-	
-	position: fixed;
-	overflow: auto;
 }
 
 nav li {
@@ -121,11 +110,38 @@ nav li a:hover {
 	color: white;
 }
 
-/* Coloured headings for Contact Me */
+/* Grid Layout for Mobile*/
+@media screen and (min-width: 18em) {
+	body {
+		display: grid;
+		grid-template-columns: auto;
+		grid-template-rows: 100%;
+		grid template-areas: "header"
+		"nav"
+		"main"
+		"footer";
+	}
+	
+	header {
+		grid-area: header;
+	}
+	
+	nav {
+		grid-area: nav;	
+	}
 
+	main {
+		grid-area: main;
+	}
 
-/* Grid Layout */
-@media screen and (min-width: 76em){
+	footer {
+		grid-area: footer;
+	}
+
+}
+
+/* Grid Layout for Desktop*/
+@media screen and (min-width: 38em){
 	body {
 		display: grid;
 		grid-template-columns: 20% 80%;
@@ -149,4 +165,14 @@ nav li a:hover {
 	nav {
 		grid-area: nav;
 	}
+	nav ul {
+		top: 7em;
+		left: 0;
+		height: 100%;
+		width: 20%;
+		position: fixed;
+		overflow: auto;
+	}
 }
+
+
