@@ -55,7 +55,6 @@ header, body {
 
 h1 {
 	color: #1db954;
-	font-size: 2.5em;
 }
 
 h3 {
@@ -93,7 +92,6 @@ a {
 li a {
 	text-decoration: none;
 	margin: 1em;
-	margin-left: 3em;
 }
 
 
@@ -101,15 +99,6 @@ li a {
 nav {
 	width: 100%;
 	background-color: black;
-
-}
-
-nav ul {
-	background-color: black;
-}
-
-nav li {
-	padding-bottom: 0;
 }
 
 nav li a {
@@ -119,7 +108,7 @@ nav li a {
 	text-align: center;
 }
 
-nav li a:hover {
+a:hover {
 	color: white;
 }
 
@@ -134,7 +123,6 @@ footer {
 @media screen and (min-width: 18em){
 
 	header {
-		max-width: 99%;		
 		font-size: 0.7em;
 	}
 }
@@ -160,16 +148,17 @@ footer {
 	}
 
 	footer {
-		grid-area: bottom-right
+		grid-area: bottom-right;
 	}
+
 	nav {
 		grid-area: nav;
-		background-color: black;
 	}
+
 	nav ul {
 		padding-top: 7em;
 		top: 0em;
-		left: 0;
+		left: 0em;
 		height: 100%;
 		width: 20%;
 		position: fixed;
