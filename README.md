@@ -2,8 +2,8 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
 
 This repository contains the code for my personal website, titled "Writings from The Underground". The design of the
-website was created during February 2018, along with most of the website's writing. After editing the writing of this original 
-website, I created this repo, and the website went live, on August 6th, 2018. 
+website was created in February 2018, along with most of the website's writing. After some edits and revisions, I created this
+repo, and the website went live, on August 6th, 2018. 
 
 Thanks to GitHub Pages, the website is hosted, free of charge, at https://michealodwyer26.github.io/.
 
@@ -12,10 +12,10 @@ Thanks to GitHub Pages, the website is hosted, free of charge, at https://michea
 ## Design
 
 The aesthetic of the website attempts to give an "underground" feel, which, of course, means one thing to me, and something
-completely different to everyone else. Anyway, to support this aesthetic, the website is quite minimal, in its colour scheme,
-and layout. I also choose a "dark theme" for the website, which, in my mind, makes the "underground" aesthetic more prevalent.
-
-The layout is just a simple CSS grid layout, with the "sticky" left-hand side nav taking 20% of the screen.
+completely different to everyone else. Anyway, to support this aesthetic, the website is quite minimal, in its colour scheme,  layout, and font . I also choose a "dark theme" for the website, which, in my mind, makes the "underground" aesthetic more 
+prevalent. The layout is just a simple CSS grid layout, with the "sticky" left-hand side nav taking 20% of the screen, and 
+the font used throughout is [Tex Gyre Heros](https://www.1001fonts.com/texgyreheros-font.html) which is really just a 
+Helvetica replacement.
 
 The main colours I used were these: 
  - black (nav background): #000000 
@@ -42,29 +42,7 @@ Along with these in the "Contact Me" page:
 
 **Contact Me** - contains links to my other profiles.
 
- 
-## Future Pages
-
-**Albums I've Heard In Full**
-
-In the future, I'll probably add in a page which lists all the *albums* I've listened to *in full*. Unfortunately, Spotify
-doesn't make my "saved music" or library public, and the playlists I've created don't do the job either, so, since I've this
-website I'll give you this information myself.
-
-**Preferences**
-
-I believe a cool page to add in would be one which shows my personal preferences between two options. These preferences seem
-insignificant, but I think they'd be interesting. For example:
-
-> Google Chrome or Mozilla Firefox?
-
-Mozilla Firefox.
-
-> Emacs or Vim?
-
-Vim.
-
-And so on.
+**List of Albums I've Heard** - a long list of every album I've heard in full.
 
 ## Edits?
 
